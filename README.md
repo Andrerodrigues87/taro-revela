@@ -32,3 +32,5 @@ gitHub
 ## Criando um Branch Master/ Main
 - codigo:  git branch   -  mostra em qual branch estamos
 - codigo:  git checkout -b developer 
+## Commits REGRAS:
+- Realizar as alterações e depois fazer o COMMITS   (Proibido commitar com o projeto errado)
