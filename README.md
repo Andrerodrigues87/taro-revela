@@ -34,3 +34,10 @@ gitHub
 - codigo:  git checkout -b developer 
 ## Commits REGRAS:
 - Realizar as alterações e depois fazer o COMMITS   (Proibido commitar com o projeto errado)
+## Atualizar as branch 
+- 1° verifique se tem alguma atualização na Master
+- codigo: git fetch --all    = atualiza as informações com o GITHUB
+
+- 2º Merge  - mescla de Branchs
+- codigo: git merge master    (vai comprar a branch master/main com a developer)
+- codigo: git checkout master  - muda de branch no VS estudio
