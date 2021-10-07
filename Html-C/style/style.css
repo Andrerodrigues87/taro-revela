@@ -1,0 +1,187 @@
+
+body{
+    margin: 0px ;
+    padding: 0px;
+  }
+
+/* Section  */
+
+header {
+    width: 100%;
+    height: 202px;  
+    float: left;
+   
+}
+header {
+    background-image: url(../img/ROSA.jpg);
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 51px;
+    padding: 1rem;
+    float: left;
+    margin: 2.4rem 0px 0px 76px;
+    
+} 
+/* Section  */
+
+
+section{
+    width: 100%;
+    float: left;
+  
+    
+}
+nav{
+    width: 100%;
+    height: 60px;
+  
+    margin: auto;
+  
+} 
+
+nav li{
+  margin-left: 40%;
+  
+} 
+
+nav li a{
+   
+    text-decoration:none;
+    font-size: 20px;
+    float: left;
+    padding-left:2rem ;
+    color: rgb(105, 6, 100);
+    margin-top: 1rem;
+} 
+
+
+section h1 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+article {
+    width: 100%;
+   float: left;
+    
+}
+article h2 {
+    text-align: center;
+    font-size: 46px;
+    margin-top: 1rem;
+}
+
+.tarologa {
+  margin-left:43%;
+  margin-top: 1rem;
+  
+}
+
+.tarologa img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    margin-left: 10%;
+ }
+ .tarologa  > p{
+  
+ }
+
+
+   /* footer  */
+    footer  {
+      width: 100%;
+      height: 40px;
+      float: left;
+      text-align: center;
+      margin-top: 1rem;
+      background-color: blueviolet;
+        }
+
+        footer p {
+         text-align: center;  
+        margin-top: 0.5rem;
+        }
+
+          /* tablet  */
+          @media(min-width:768px){
+            header,
+            section,
+            .table,
+            nav,footer
+            {
+                width: 100%;
+                
+                min-width: 768px;
+            }
+            .tarologa{
+                margin-left: 38%;
+                max-width: 768px;
+            }
+            .tarologa p{
+                margin-left: 8%;
+            }
+    .icones{
+        width: 31%;
+        float: left;
+        margin-left: 1rem;
+        min-width: 426px;
+    }
+    
+       }
+
+
+
+
+/* Mobile  */
+@media(max-width:425px){
+    header,
+    section,
+    .table,
+    nav,
+    footer
+    {
+        width: 100%;
+        max-width:425px;
+        min-width: 320px;
+    }
+    header h1{
+        font-size: 56px;
+        margin-left: 1rem;
+    }
+  
+    nav li{
+       margin-left: 2rem;
+    }
+    footer p{
+        font-size:10px ;
+        margin-left: 50% auto;
+    }
+    article{
+        width: 100%;
+        float: left;
+    }
+    .tarologa {
+       margin-left:4.5rem;
+      }
+     .icones{
+        margin: auto;
+        
+     }
+
+     .icones img{
+        margin:20px 0px 2px 25%;
+     }
+     .icones h4{
+        font-weight: bold;
+    }
+    .tarologa p{
+        margin-left: 15%;
+    }
+}
+
+    
