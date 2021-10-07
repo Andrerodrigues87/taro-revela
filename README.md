@@ -39,5 +39,5 @@ gitHub
 - codigo: git fetch --all    = atualiza as informações com o GITHUB
 
 - 2º Merge  - mescla de Branchs
-- codigo: git merge master    (vai comprar a branch master/main com a developer)
+- codigo: git merge master/main    (vai comprar a branch master/main com a developer)
 - codigo: git checkout master  - muda de branch no VS estudio
