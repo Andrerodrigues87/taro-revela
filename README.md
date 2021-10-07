@@ -19,3 +19,16 @@ gitHub
 - git status (mostra o status do git o que foi deletado tambem)
 - git commit -m "comentario" (codigo para commitar um codigo)
 - git pull (atualiza o Visual Code - lembrando de sempre commitar no visual code para funcionar)
+
+## GitFlow
+- Temos 2 branch  master/main e a branch developer 
+- Branch developer serve para realizar alterações
+- DOD ()
+- Versionamento - versão 0 em desenvolviento (BETA)
+- Versionamento - versão 0.1 alterações P e G
+- Versionamento - versão 0.1.1 para testes do projeto e correçãod e BUGS
+- Versionamento - versão 1.0.0 Código pronto! Enviar para Branch Master ou Main (Publicado)
+- DOD - Definiton of done - CONCLUÍDO 
+## Criando um Branch Master/ Main
+- codigo:  git branch   -  mostra em qual branch estamos
+- codigo:  git checkout -b developer 
